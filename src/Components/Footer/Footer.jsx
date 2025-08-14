@@ -1,7 +1,7 @@
 const Footer = () => {
     return (
         <footer className="sm:footer-horizontal bg-neutral text-neutral-content p-10">
-            <div className="max-w-6xl mx-auto flex justify-between">
+            <div className="max-w-6xl space-y-10 mx-auto lg:flex justify-between">
                 <nav>
                     <h6 className="footer-title">Services</h6>
                     <div className="flex flex-col gap-2">
