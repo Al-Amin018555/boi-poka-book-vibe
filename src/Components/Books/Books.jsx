@@ -13,8 +13,8 @@ const Books = () => {
     }, [])
 
     return (
-        <div>
-            <h2 className="text-[40px] text-[#131313] font-[PlayfairDisplay,serif] font-bold text-center">Books</h2>
+        <div className='my-10 lg:my-24'>
+            <h2 className="text-[40px] mb-4 lg:mb-10 text-[#131313] font-[PlayfairDisplay,serif] font-bold text-center">Books</h2>
 
             <div className='grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
                 {
