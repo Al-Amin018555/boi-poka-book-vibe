@@ -56,8 +56,8 @@ const BookDetail = () => {
 
                         </div>
                         <div className="mt-8 font-semibold text-[18px] space-x-4">
-                             <button class="btn px-6 border-[rgba(119,50,50,0.32)] btn-neutral btn-outline">Read</button>
-                            <button className="btn px-6  text-white rounded-lg btn-info">Get Started</button>
+                             <button class="btn px-6 border-[rgba(119,50,50,0.32)] btn-neutral btn-outline">Mark as Read</button>
+                            <button className="btn px-6  text-white rounded-lg btn-info">Add to Wish List</button>
 
                         </div>
                     </div>
