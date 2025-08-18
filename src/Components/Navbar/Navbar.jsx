@@ -1,10 +1,11 @@
 import { NavLink } from "react-router-dom";
+import './Navbar.css'
 
 const Navbar = () => {
     const links = <>
         <li> <NavLink to='/'> <span className="text-[18px]">Home</span> </NavLink> </li>
         <li> <NavLink to='/listedBooks'><span className="text-[18px]">Listed Books</span></NavLink> </li>
-        <li> <NavLink><span className="text-[18px]">Pages to Read</span></NavLink> </li>
+        
     </>
     return (
         <div className="navbar bg-base-10 p-5 shadow-sm">
@@ -20,7 +21,7 @@ const Navbar = () => {
                             {links}
                         </ul>
                     </div>
-                    <NavLink className="text-[18px] lg:text-[28px] cursor-pointer font-bold">Book Vibe</NavLink>
+                    <a className="text-[18px] lg:text-[28px] cursor-pointer font-bold">Book Vibe</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">

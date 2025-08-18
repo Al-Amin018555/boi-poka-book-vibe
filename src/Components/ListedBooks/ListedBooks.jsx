@@ -8,7 +8,7 @@ import Book from '../Book/Book';
 const ListedBooks = () => {
     const [readList, setReadList] = useState([]);
     const allBooks = useLoaderData();
-    console.log(allBooks);
+  
     useEffect(() => {
         const storedReadList = getStoredList()
 
