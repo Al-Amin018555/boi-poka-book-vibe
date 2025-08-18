@@ -8,7 +8,7 @@ import Book from '../Book/Book';
 const ListedBooks = () => {
     const [readList, setReadList] = useState([]);
     const allBooks = useLoaderData();
-
+    console.log(allBooks);
     useEffect(() => {
         const storedReadList = getStoredList()
 
@@ -29,7 +29,7 @@ const ListedBooks = () => {
 
                 <TabPanel>
                     <h2 className='text-2xl'>Books I read: {readList.length}</h2>
-                    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
+                    <div className='my-4 lg:my-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
                         {
                             readList.map(book => <Book key={book.bookId} book={book}></Book>)
                         }
